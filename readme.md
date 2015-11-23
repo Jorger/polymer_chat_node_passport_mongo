@@ -43,6 +43,20 @@ El cual instalará módulos como:
 * passport
 * Entre otros.
 
+### Autenticación vía Twitter.
+
+La autenticación del chat se realiza vía passport con el módulo ```passport-twitter``` por lo que es necesario la creación de una [app de Twitter], los datos de configuración de la misma deberán ser establecidos en el archivo [config.json]
+
+```
+{
+    "twitter" :
+    {
+        "callback" : "http://127.0.0.1:3000/twitter/callback",
+        "consumerKey" : "consumerKey_TWITTER",
+        "consumerSecret" : "consumerSecret_TWITTER"
+    }
+}
+```
 
 ### Autor
 
@@ -63,3 +77,5 @@ MIT
 [Polymer]:https://www.polymer-project.org/1.0/
 [MongoDB]:https://www.mongodb.org/
 [passportjs]:http://passportjs.org/
+[config.json]:https://github.com/Jorger/polymer_chat_node_passport_mongo/blob/master/config.json
+[app de Twitter]:https://apps.twitter.com/

@@ -1,0 +1,37 @@
+{
+  "name": "Chat_polymer",
+  "authors": [
+    "Jorge Rubiano <ostricajh@gmail.com>"
+  ],
+  "description": "Chat Polymer",
+  "main": "index.ejs",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "Polymer",
+    "Node",
+    "Express",
+    "Mongo",
+    "Socket.io"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-item": "Polymer/core-item#^0.5",
+    "core-scaffold": "Polymer/core-scaffold#^0.5",
+    "paper-input": "Polymer/paper-input#^0.5",
+    "notify.js": "~1.2.8",
+    "paper-fab": "Polymer/paper-fab#^0.5",
+    "polymer": "Polymer/polymer#^0.5",
+    "time-elements": "~0.4.0"
+  }
+}

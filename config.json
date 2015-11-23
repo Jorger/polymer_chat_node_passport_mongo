@@ -1,0 +1,8 @@
+{
+    "twitter" :
+    {
+        "callback" : "http://127.0.0.1:3000/twitter/callback",
+        "consumerKey" : "consumerKey_TWITTER",
+        "consumerSecret" : "consumerSecret_TWITTER"
+    }
+}
